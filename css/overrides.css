@@ -1,0 +1,20 @@
+img.noborder {
+  border: 0 !important;
+  box-shadow: initial !important;
+}
+
+.blink {
+    animation-duration: .5s;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+@keyframes blink {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
